@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepper Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle current" id="1">
+            <p>1</p>
+        </div>
+        <div class="line" id="line-1"></div>
+        <div class="circle" id="2">
+            <p>2</p>
+        </div>
+        <div class="line" id="line-2"></div>
+        <div class="circle" id="3">
+            <p>3</p>
+        </div>
+        <div class="line" id="line-3"></div>
+        <div class="circle" id="4">
+            <p>4</p>
+        </div>
+    </div>
+    <div class="names">
+        <p>Contact Details</p>
+        <p>Shipping Address</p>
+        <p>Payment</p>
+        <p>Delivered</p>
+    </div>
+    <div class="status">Add contact details for further communications.</div>
+    <div class="btn">
+        <button onclick=previous() id="prev">Previous</button>
+        <button onclick=next() id="next">Next</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
